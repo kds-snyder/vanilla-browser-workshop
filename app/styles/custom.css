@@ -1,0 +1,41 @@
+.add-skill, .remove-skill {
+  display: inline-block;
+  height: 12px;
+}
+
+.add-skill:hover, .remove-skill:hover {
+  display: inline-block;
+  height: 12px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.response-wrapper {
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.error {
+  background-color: #fcc;
+  border: solid 1px #c33;
+  border-radius: 0.5em;
+  color: #c33;
+  padding: 0.5em;
+}
+
+.success {
+  background-color: #dfd;
+  border: solid 1px #090;
+  border-radius: 0.5em;
+  color: #090;
+  padding: 0.5em;
+}
+
+.response {
+  background-color: #f6f6f6;
+  border: solid 1px #777;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
